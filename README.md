@@ -1,48 +1,50 @@
-<h1 align="center">🎮 C Console Games</h1>
+<h1 align="center">🎮 Jogos de Console em C</h1>
 
 <p align="center">
-  A collection of console-based games developed in C, focused on logic, problem-solving, and terminal interaction.
+  Coleção de jogos desenvolvidos em C para terminal, com foco em lógica de programação,
+  resolução de problemas e interação com o usuário.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/language-C-blue?style=for-the-badge&logo=c">
-  <img src="https://img.shields.io/badge/status-active-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/platform-console-lightgrey?style=for-the-badge">
-  <img src="https://img.shields.io/badge/focus-game%20development-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/linguagem-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/status-ativo-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/plataforma-console-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/foco-desenvolvimento%20de%20jogos-orange?style=for-the-badge">
 </p>
 
 <hr>
 
-<h2>🚀 About the Repository</h2>
+<h2>🚀 Sobre o Repositório</h2>
 
 <p>
-The <strong>C Console Games</strong> repository is a collection of simple games developed using the C programming language.
-Each project focuses on strengthening core programming concepts such as <strong>control structures, randomness, and user interaction</strong>.
+O repositório <strong>Jogos de Console em C</strong> reúne jogos simples desenvolvidos utilizando a linguagem C.
+Cada projeto tem como objetivo fortalecer conceitos fundamentais de programação, como
+<strong>estruturas de controle, aleatoriedade e interação com o usuário</strong>.
 </p>
 
 <hr>
 
-<h2>🧠 Included Games</h2>
+<h2>🧠 Jogos Incluídos</h2>
 
 <ul>
-  <li>🏇 <strong>Horse Race Game</strong> – A race simulation with random movement and player interaction</li>
-  <li>🎯 <strong>Hangman Game</strong> – A classic word guessing game with attempt control</li>
+  <li>🏇 <strong>Corrida de Cavalos</strong> – Simulação de corrida com movimentação aleatória e interação do jogador</li>
+  <li>🎯 <strong>Jogo da Forca</strong> – Jogo clássico de adivinhação de palavras com controle de tentativas</li>
 </ul>
 
 <hr>
 
-<h2>🛠️ Tech Stack</h2>
+<h2>🛠️ Tecnologias Utilizadas</h2>
 
 <ul>
-  <li><strong>C (Core language)</strong></li>
-  <li>Standard Library (stdio, stdlib, string, time)</li>
-  <li>Terminal-based interaction</li>
-  <li>Random number generation</li>
+  <li><strong>C</strong></li>
+  <li>Biblioteca padrão (stdio, stdlib, string, time)</li>
+  <li>Interação via terminal</li>
+  <li>Geração de números aleatórios</li>
 </ul>
 
 <hr>
 
-<h2>📂 Project Structure</h2>
+<h2>📂 Estrutura do Projeto</h2>
 
 <pre>
 c-console-games/
@@ -58,16 +60,16 @@ c-console-games/
 
 <hr>
 
-<h2>⚙️ How to Run</h2>
+<h2>⚙️ Como Executar</h2>
 
-<h3>🏇 Horse Race</h3>
+<h3>🏇 Corrida de Cavalos</h3>
 
 <pre>
 gcc horse-race/corridadecavalos.cpp -o horse-race
 ./horse-race
 </pre>
 
-<h3>🎯 Hangman</h3>
+<h3>🎯 Jogo da Forca</h3>
 
 <pre>
 gcc hangman/jogodaforca.cpp -o hangman
@@ -76,36 +78,24 @@ gcc hangman/jogodaforca.cpp -o hangman
 
 <hr>
 
-<h2>🎯 Learning Goals</h2>
+<h2>🎯 Objetivos de Aprendizado</h2>
 
 <p>
-This repository was created to improve skills in:
+Este repositório foi criado para aprimorar habilidades em:
 </p>
 
 <ul>
-  <li>Game development logic</li>
-  <li>Loops and conditionals</li>
-  <li>String manipulation</li>
-  <li>Random event handling</li>
-  <li>User interaction via terminal</li>
+  <li>Lógica de desenvolvimento de jogos</li>
+  <li>Laços de repetição e estruturas condicionais</li>
+  <li>Manipulação de strings</li>
+  <li>Eventos aleatórios</li>
+  <li>Interação com o usuário via terminal</li>
 </ul>
 
 <hr>
 
-<h2>📌 Future Improvements</h2>
-
-<ul>
-  <li>Add more console-based games</li>
-  <li>Improve game interfaces</li>
-  <li>Create score systems</li>
-  <li>Add difficulty levels</li>
-  <li>Refactor code for modularity</li>
-</ul>
-
-<hr>
-
-<h2>👨‍💻 Author</h2>
+<h2>👨‍💻 Autor</h2>
 
 <p align="center">
-  Developed by <strong>Daniel Augusto Silva</strong><br>
+  Desenvolvido por <strong>Daniel Augusto Silva</strong><br>
 </p>
