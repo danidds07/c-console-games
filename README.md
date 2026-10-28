@@ -1,42 +1,39 @@
-# Jogos de Console em C
+**English** | [Português](README.pt-BR.md)
 
-Coleção de jogos de terminal escritos em C, feitos para praticar lógica de programação
-nas disciplinas de Algoritmos 1 e 2. São dois jogos independentes que rodam direto no
-console, sem bibliotecas externas.
+# Console Games in C
 
-## O que dá para jogar
+A collection of terminal games written in C to practice programming logic in my Algorithms 1 and 2 courses. There are two independent games that run straight in the console, with no external libraries.
 
-- **Corrida de Cavalos**: uma corrida simulada com movimento aleatório a cada rodada,
-  até um cavalo cruzar a linha de chegada.
-- **Jogo da Forca**: o clássico jogo de adivinhar palavras, com número limitado de
-  tentativas e desenho da forca atualizado no terminal.
+## What you can play
 
-Os dois usam só a biblioteca padrão do C (stdio, stdlib, string, time) para entrada e
-saída, geração de números aleatórios e manipulação de texto.
+- **Horse Race**: a simulated race with random movement each round, until a horse crosses the finish line.
+- **Hangman**: the classic word-guessing game, with a limited number of attempts and the gallows drawing updated in the terminal.
 
-## Tecnologias
+Both use only the C standard library (stdio, stdlib, string, time) for input and output, random number generation and text handling.
+
+## Tech stack
 
 - C
-- Biblioteca padrão (stdio, stdlib, string, time)
-- Interação via terminal
+- Standard library (stdio, stdlib, string, time)
+- Terminal interaction
 
-Não há dependências externas nem sistema de build; cada jogo compila sozinho com o gcc.
+There are no external dependencies or build system; each game compiles on its own with gcc.
 
-## Como executar
+## How to run
 
-**Corrida de Cavalos**
+**Horse Race**
 ```bash
 gcc horse-race/corridadecavalos.cpp -o horse-race
 ./horse-race
 ```
 
-**Jogo da Forca**
+**Hangman**
 ```bash
 gcc hangman/jogodaforca.cpp -o hangman
 ./hangman
 ```
 
-## Estrutura do projeto
+## Project structure
 ```text
 c-console-games/
 |-- horse-race/
@@ -46,12 +43,10 @@ c-console-games/
 `-- README.md
 ```
 
-## Contexto acadêmico
+## Academic context
 
-Os dois jogos foram feitos como exercício para as disciplinas de Algoritmos 1 e 2,
-com foco em laços de repetição, estruturas condicionais, manipulação de strings e
-geração de eventos aleatórios.
+Both games were built as exercises for the Algorithms 1 and 2 courses, focusing on loops, conditionals, string handling and random events. It was a pair project: I wrote the Horse Race and my classmate wrote Hangman.
 
-## Autor
+## Author
 
-Desenvolvido por Daniel Augusto Silva.
+Horse Race developed by Daniel Augusto Silva.
